@@ -1,12 +1,14 @@
 import turtle
 import random
 
+turtle.Screen().title("God Doodle")
+
 turtle.pensize(10)
 turtle.speed('fastest')       
 
 def click():
     direction = random.randint(1,2)
-    angle = random.randint(30,360)
+    angle = random.randint(1,360)
     distance = random.randint(50,200)
     color = random.randint(1,4)
 
