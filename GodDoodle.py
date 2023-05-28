@@ -44,5 +44,6 @@ def click():
 turtle.listen()
 
 turtle.onkey(click, 'space')
+turtle.onkeypress(click, 'space')
 
 turtle.mainloop()
